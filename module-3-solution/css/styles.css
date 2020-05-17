@@ -1,0 +1,77 @@
+body{
+	font-size: 16px;
+  	color: black;
+  	font-family: sans-serif;
+}
+
+.container-fluid h3{
+	margin:1px auto;
+	position: relative;
+	top:70px;
+	right:6px;
+	z-index: 10;
+}
+	
+
+#content{
+	width: 98%;
+}
+.text-center{
+	font-weight: bold;
+}
+
+
+.container-fluid p{
+	padding: 60px 15px 10px;
+	background-color: gray;
+
+}
+#header-nav{
+	  background-color: gray;
+	  border: 3px solid black;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.navbar-brand h1 { 
+  font-family: serif;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 10px;
+  background-color: white;
+  margin-bottom: 1px solid black;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#collapsable-nav a{
+	font-size: 1.2em;
+	border: 1px solid black; 
+}
+
+@media(min-width: 1200px){}
+}
+@media(min-width: 768px and max-width:1199px){
+}
+@media(max-width: 767px){
+	#content{
+		width: 85%;
+	}
+}
